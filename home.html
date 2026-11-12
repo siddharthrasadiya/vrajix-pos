@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vrajix POS</title>
+    <meta
+      name="description"
+      content="Vrajix POS: billing, stock, purchases and customer accounts for small shops. Works offline on any phone or computer."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      :root {
+        --primary: #2563eb;
+        --text: #0f172a;
+        --muted: #475569;
+        --bg: #eef2f7;
+        --card: #fff;
+        --border: #dbe3ee;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.55;
+      }
+      header {
+        padding: 48px 16px 40px;
+        background: linear-gradient(135deg, var(--primary), #4f46e5);
+        color: #fff;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0 0 8px;
+        font-size: 34px;
+      }
+      header p {
+        max-width: 560px;
+        margin: 0 auto 24px;
+        color: #fff;
+        font-size: 17px;
+        opacity: 0.95;
+      }
+      .open {
+        display: inline-block;
+        padding: 12px 28px;
+        border-radius: 10px;
+        background: #fff;
+        color: var(--primary);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 24px 16px 40px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 12px;
+      }
+      section,
+      .grid div {
+        padding: 16px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--card);
+      }
+      section {
+        margin-top: 16px;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 20px;
+      }
+      h3 {
+        margin: 0 0 4px;
+        font-size: 16px;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      footer {
+        padding: 24px 16px;
+        color: var(--muted);
+        font-size: 14px;
+        text-align: center;
+      }
+      footer a {
+        color: var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Vrajix POS</h1>
+      <p>
+        Billing, stock, purchases and customer accounts for small shops. Works on any phone, tablet
+        or computer, even without internet.
+      </p>
+      <a class="open" href="./">Open the app</a>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div>
+          <h3>Fast billing</h3>
+          <p>
+            Tap products to make a bill, print on a Bluetooth printer or share it on WhatsApp as
+            text or PDF, in English or Gujarati.
+          </p>
+        </div>
+        <div>
+          <h3>Stock and purchases</h3>
+          <p>
+            Stock goes down with every bill and up with every purchase, with boxes and pieces,
+            low-stock alerts and buying cost.
+          </p>
+        </div>
+        <div>
+          <h3>Customer accounts</h3>
+          <p>
+            Each customer's dues, payments and statement in one place, with call and WhatsApp in one
+            tap.
+          </p>
+        </div>
+        <div>
+          <h3>Safe backups</h3>
+          <p>
+            Backups go to the shop's own Google Drive and, with a Vrajix code, to Vrajix Cloud.
+            Restore any time on a new device.
+          </p>
+        </div>
+      </div>
+
+      <section>
+        <h2>How sign-in and data work</h2>
+        <ul>
+          <li>The shop signs in with its Google account. One Gmail is one shop.</li>
+          <li>
+            All shop data is kept on the shop's own device. The app works offline after the first
+            sign-in.
+          </li>
+          <li>
+            Google Drive backup uses only the folder and files the app creates. Vrajix POS cannot
+            see any other file in the Drive, or the shop's Gmail.
+          </li>
+          <li>We do not sell data, show ads or use the data for marketing.</li>
+        </ul>
+        <p>
+          Details are in the <a href="privacy.html">Privacy Policy</a> and the
+          <a href="terms.html">Terms &amp; Conditions</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Vrajix, Gujarat, India. Email: <a href="mailto:vrajix@gmail.com">vrajix@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Vrajix · <a href="privacy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms &amp; Conditions</a> · <a href="./">Open the app</a>
+    </footer>
+  </body>
+</html>
